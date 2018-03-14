@@ -1,0 +1,70 @@
+/* Styles */
+ #app {
+     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     color: #4d4d4d;
+     min-width: 550px;
+     max-width: 850px;
+     margin: 0 auto;
+ }
+.circle {
+    background-image: -webkit-radial-gradient( circle, black, black 5px, transparent 5px );
+    background-image: radial-gradient( circle, blackblack, black 5px, transparent 5px );
+    background-position: right;
+    border:none;
+    border-top:none !important;
+    width:30px;
+}
+.linkContent {
+    color: black;
+}
+h1 {
+    margin-left: 10% !important;
+}
+table {
+    width: 80%;
+    margin: 1em auto;
+    table-layout: fixed;
+    text-align: left;
+    margin-left: 10%;
+}
+td {
+    height: 40px;
+    border-top:none !important;
+}
+th {
+    border-top:none !important;
+}
+nav {
+    padding-top: 20px;
+}
+.divWithBorder {
+    border:1px solid lightgray;
+    padding: 0px;
+    margin: 0px;
+    align-content: flex-end;
+    margin-top:15px;
+}
+.divList {
+    border:1px solid lightgray;
+    padding: 0px;
+    margin-left: -30px;
+    margin-bottom: -2px;
+    margin-top:0px;
+}
+.divForm{
+    padding: 0px;
+    margin-left: -15px;
+    border:none;
+    justify-content: center;
+    margin-top:10px;
+}
+.headerStyle {
+    border:1px solid lightgray;
+    margin-left: 0;
+}
+hr {
+    margin-left: -2%;
+    margin-right: -5.5%;
+    margin-top: 7% !important;
+    border-top:1px solid lightgray !important;
+}
