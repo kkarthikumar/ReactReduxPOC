@@ -1,6 +1,5 @@
 import React from 'react';
 import TextInput from '../common/TextInput';
-import SelectInput from '../common/SelectInput';
 
 const UserForm = ({user, onSave,onDelete, onClear,onChange, saving,deleting, errors}) => {
 
